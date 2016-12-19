@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Spiral Number Grid Demo";
+}
+
+<div class="row">
+    <div class="col-md-9">
+        <h2>Numeric Spiral Generator</h2>
+        <div id="spiralTable"></div><br/>
+        <form id="mainForm">
+            <input type="text" id="startNumber" value="24"/>
+            <input type="button" value="Generate!" onclick="drawSpiral($('#startNumber').val())"/>
+        </form>
+    </div>   
+</div>
+
+
